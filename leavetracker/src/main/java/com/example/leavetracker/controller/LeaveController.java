@@ -49,6 +49,7 @@ public class LeaveController {
 		if(file!=null) {
 		 document=file.getBytes();
 		}
+		
 		Employee emp=new Employee();
 		emp.setDocument(document);
 		emp.setEmpId(empid);
